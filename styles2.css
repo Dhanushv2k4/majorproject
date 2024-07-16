@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* 
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #333;
+    overflow: hidden;
+    color: #3ea3af;
+    padding: 9px;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: rgb(82, 177, 215);
+    text-decoration: none;
+} */
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A2044;
+    color: white;
+    border-radius: 0px 0px 25px 25px;
+    height: 65px;
+    
+}
+
+body{
+    background-color: rgb(39, 50, 114);
+}
+
+.left{
+    font-size: 38px;
+}
+.right{
+    font-size: 25px;
+}
+
+.lower{
+    position: relative;
+    font-size: 10px;
+    top: 2px;
+}
+
+.right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+    font-size: 25px;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #aeb3ae;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    height: 50px;
+    padding: 0;
+}
+/* 
+ul li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+} */
+
+footer {
+    background-color: #333;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+.hospital {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 12px 6px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.hspright img{
+    width: 20rem;
+    border-radius: 5px;
+}
+.hospital:hover {
+    background-color: #f1f1f1;
+}
+
+
+

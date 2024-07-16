@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitals</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script>
+        function selectHospital(hospital) {
+            document.getElementById('hospital').value = hospital;
+            window.location.href = 'index.html#book-appointment';
+        }
+    </script>
+</head>
+<body>
+    
+
+    <nav class="navbar">
+        <div class="left">
+            <span>DiagnoSYNC</span>
+           
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="landingpage.html">Home</a></li>
+                <li><a href="hospital.html">Hospitals</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="#" style="color: rgb(133, 226, 176);">Symptom Analysis</a></li>
+                
+            </ul>
+            
+        </div>
+    </nav>
+
+    <main>
+        <section id="browse-hospitals">
+            <h2>Browse Hospitals</h2>
+            <div class="hospital" onclick="selectHospital('hospital1')"><div class="hspleft">
+
+                <h3>Appolo Hospital </h3>
+                <p>Specialties: General Surgery, Cardiology</p>
+                <p>Major Doctors: Dr. Smith, Dr. Johnson</p>
+                <p>Availability: Mon-Fri, 9am - 5pm</p>
+                <p><a href="appointment.html">Book Appointment</a></p>
+            </div><div class="hspright">
+                <img src="apollo img.jpg" alt="">
+            </div>
+            </div>
+            <div class="hospital" onclick="selectHospital('hospital2')"><div class="hspleft">
+
+                <h3>Manipal Hospital</h3>
+                <p>Specialties: Orthopedics, Neurology</p>
+                <p>Major Doctors: Dr. Brown, Dr. Davis</p>
+                <p>Availability: Mon-Fri, 8am - 6pm</p>
+                <p><a href="appointment.html">Book Appointment</a></p>
+            </div><div class="hspright">
+                <img src="manipal img.webp" alt="">
+            </div>
+            </div>
+            <div class="hospital" onclick="selectHospital('hospital3')"><div class="hspleft">
+
+                <h3>Fortis Hospital</h3>
+                <p>Specialties: Pediatrics, Dermatology</p>
+                <p>Major Doctors: Dr. Wilson, Dr. Taylor</p>
+                <p>Availability: Mon-Fri, 10am - 4pm</p>
+                <p><a href="appointment.html">Book Appointment</a></p>
+            </div><div class="hspright">
+                <img src="fortis img.jpg" alt="">
+            </div>
+            </div>
+            <div class="hospital" onclick="selectHospital('hospital3')"><div class="hspleft">
+
+                <h3>Rammiah Hospital</h3>
+                <p>Specialties: Pediatrics, Dermatology</p>
+                <p>Major Doctors: Dr. Wilson, Dr. Taylor</p>
+                <p>Availability: Mon-Fri, 10am - 4pm</p>
+                <p><a href="appointment.html">Book Appointment</a></p>
+            </div><div class="hspright">
+                <img src="Ramaiah img.jpg" alt="">
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hospital Appointment Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>

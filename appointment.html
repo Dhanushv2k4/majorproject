@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiagnoSYNC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <span>DiagnoSYNC</span>
+           
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="landingpage.html">Home</a></li>
+                <li><a href="hospital.html">Hospitals</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="#" style="color: rgb(133, 226, 176);">Symptom Analysis</a></li>
+                
+            </ul>
+            
+        </div>
+    </nav>
+
+    <main>
+        <section id="book-appointment">
+            <h2>Book an Appointment</h2>
+            <form><div class="inputs">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+                <div class="inputs">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+<div class="inputs">
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+</div>
+                <div class="inputs">
+
+                    <label for="hospital">Select Hospital:</label>
+                    <select id="hospital" name="hospital" required>
+                        <option value="hospital1" selected>select Hospital</option>
+                        <option value="hospital1">Apollo Hospital</option>
+                        <option value="hospital2">Manipal Hospital </option>
+                        <option value="hospital3">Fortis Hospital</option>
+                    </select>
+                </div>
+                <div class="inputs">
+
+                    <label for="date">Appointment Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hospital Appointment Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
